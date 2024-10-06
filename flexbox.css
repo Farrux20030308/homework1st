@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox{
+    background: black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background: url(./assets/images/samsung.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px ;
+}
+.box__descr{
+    
+    font-size: 32px;
+    color: blue;
+}
+.flexbox__title{
+    color: green;
+}
